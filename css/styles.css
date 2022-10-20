@@ -20,19 +20,21 @@ a {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .benefits-il > h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
-.benefits-il > article {
+.benefits-il > p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -40,7 +42,7 @@ ul {
 .nav {
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.2;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #000;
@@ -52,22 +54,22 @@ ul {
 .link-contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
 .hero {
-  padding-top: 15%;
-  padding-right: 25%;
-  padding-left: 25%;
-  padding-bottom: 15%;
+  padding-top: 17%;
+  padding-right: 29%;
+  padding-left: 29%;
+  padding-bottom: 17%;
   text-align: center;
   color: #ffffff;
   background: #2f303a;
 }
 header {
-  padding: 0 13%;
+  padding-left: 13%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -86,7 +88,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   -webkit-text-stroke: 1px #000;
@@ -112,7 +114,7 @@ header {
 h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -123,7 +125,7 @@ h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   border: none;
   background: #2196f3;
   border-radius: 4px;
@@ -134,8 +136,8 @@ h1 {
 .team,
 .menu,
 .services {
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 13%;
+  padding-left: 13%;
   padding-bottom: 45px;
   padding-top: 45px;
 }
@@ -154,15 +156,13 @@ h1 {
   flex-wrap: wrap;
 }
 .benefits-ul > li {
-  margin-left: 1%;
-  margin-right: 1%;
   width: 270px;
 }
 
 .products > h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -186,7 +186,7 @@ h1 {
 .team-ul > li {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -197,14 +197,14 @@ h1 {
 .portfolio {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .specialization {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -222,12 +222,11 @@ footer {
   color: #ffffff;
 }
 .logo-foot {
-  padding-left: 40px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .menu {
@@ -239,7 +238,7 @@ footer {
   margin-left: 8px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -261,25 +260,27 @@ footer {
   justify-content: space-between;
 }
 .services > li {
-  margin: 15px 15px;
   text-align: start;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
 }
 .services > h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .portfolio,
 .padding {
   padding-left: 24px;
-  padding-right: 24px;
+  padding-right: auto;
 }
 .portfolio-none {
   display: none;
+}
+footer {
+  padding-left: 13%;
 }
