@@ -1,12 +1,18 @@
+:root {
+  --color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 .container {
-  width: 1200px;
+  width: 1230px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .link {
   text-decoration: none;
@@ -18,9 +24,7 @@ body {
 .link-contact:hover,
 .white:focus,
 .white:hover {
-  color: #2196f3;
-}
-.hero {
+  color: var(--color);
 }
 .link-contact,
 .white {
@@ -69,10 +73,12 @@ body {
   background: #2f303a;
 }
 .header {
+  border-bottom: Solid #ececec;
+}
+.header-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-bottom: Solid #ececec;
 }
 .head {
   margin-top: 25px;
@@ -110,37 +116,39 @@ body {
   flex-grow: 1;
 }
 .hero-h {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .button-hero {
-  width: 216px;
-  height: 50px;
+  min-width: 216px;
+  min-height: 50px;
+  padding: 10px, 32px;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   border: none;
-  background: #2196f3;
+  background: var(--color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .benefits,
 .products,
-.team,
 .menu,
-.services {
-  padding-top: 45px;
-}
-
+.services,
 .team {
-  padding-bottom: 90px;
+  margin-top: 94px;
 }
-
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
 .benefits {
   margin-top: 94px;
 }
@@ -166,13 +174,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 45px;
 }
-.team-ul {
-  margin-top: 45px;
-}
-.team {
-  background: #f5f4fa;
+.products-h,
+.team-h {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .team-ul {
   flex-wrap: wrap;
@@ -201,10 +207,6 @@ body {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   color: #ffffff;
   background-color: #2f303a;
 }
@@ -237,7 +239,7 @@ body {
   cursor: pointer;
   font-family: inherit;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -265,11 +267,7 @@ body {
   height: 1px;
   margin: -1px;
 }
-.footer {
-  padding-left: 13%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .foot-contacts {
   margin-top: 20px;
   height: 81px;
